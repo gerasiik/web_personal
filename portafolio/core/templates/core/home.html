@@ -1,0 +1,18 @@
+{% extends 'core/base.html' %}
+
+<!--El block content conecta con el base html-->
+
+<!--Se carga la imagen-->
+{%block background%}{% load static %}{% static 'core/img/home-bg.jpg'%}{%endblock%}
+
+<!-- se hacen headers dinamicos-->
+{%block headers%}
+<h1>Gerardo Ponce</h1>
+<span class="subheading">Programador web</span>
+{% endblock %}
+
+<!-- se crea el contenido dinamico-->
+{% block content %}
+{% endblock %}
+
+
